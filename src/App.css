@@ -1,38 +1,180 @@
-.App {
-  text-align: center;
+.App{
+  background-color: #F2FAF4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Header Styles */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headerContainer{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #B2DFAB;
+}
+
+.buttonStyle{
+  background-color: transparent;
+  border: none;
+  height: 24;
+  width: auto;
+}
+
+.imgStyle{
+  height: 24;
+  width: auto;
+}
+
+.logoContainer{
+  margin-left: 20px;
+}
+
+.buttonContainer{
+  margin-right: 20px
+}
+
+/* End of Header Styles */
+
+/* Sidebar Styles */
+
+.sidebarContainer{
+  margin: 20px;
+}
+
+.menuContainer, .inventory-items{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.inventory-itemContainer{
+  margin-left: 40px;
+}
+
+.labelContainer{
+  margin-left: 10px;
+}
+
+
+
+.sideForm{
+  display: flex;
+  flex-direction: row;
+}
+
+.form-item-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.formLabelContainer{
+  margin: 30px;
+  width: 100px;
+}
+
+.formInputContainer{
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 200px;
+}
+
+h1{
+  color: #0E410D;
+}
+
+label{
+  color: #0E410D;
+  font-size: larger;
+  font-weight: bold;
+}
+
+input, select{
+  width: 580px;
+  height: 50px;
+  background-color: white;
+  border: gray;
+}
+
+.buttonContainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.cancelContainer{
+  margin-right: 30px;
+}
+
+.cancelButton{
+  background-color: #ECC4B8;
+  border: none;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+}
+.addButton{
+  background-color: #C8ECB8;
+  border: none;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+}
+
+
+.addFormContainer{
+  margin-left: 30px;
+}
+
+
+.loginPageContainer{
+  display: flex;
+  flex-direction: row;
+  padding-top: 190px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-bottom: 250px;
 }
 
-.App-link {
-  color: #61dafb;
+.loginBox{
+  background-color: #D3F1DB;
+  padding: 80px;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.biglogoContainer{
+  margin-right: 100px;
+  margin-top: 140px;
+}
+
+.loginButtonContainer{
+  margin-top: 20px;
+}
+
+.loginButton{
+  background-color: #FAB41F;
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  width: 580px;
+}
+
+.asContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.summaryBox{
+  background-color: white;
+  border:1px solid #8CF17C;
+  border-radius: 10px;
+  margin: 5px;
+  width: 250px;
+  padding: 5px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: white;
+  border-radius: 8px;
 }
